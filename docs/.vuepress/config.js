@@ -1,6 +1,7 @@
 module.exports = {
     title: 'Rjax',
     description: 'base on rxjs awesome ajax library',
+    base: '/rjax/docs/dist',
     themeConfig: {
         repo: 'ppjjzz/rjax',
         nav: [
