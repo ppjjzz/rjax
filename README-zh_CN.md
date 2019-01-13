@@ -32,7 +32,7 @@ rjax.get(`/user/12345`).subscribe(response => {
 ```
 
 ## 文档
-API 文档及示例 [链接]()
+API 文档及示例 [链接](https://ppjjzz.github.io/rjax/dist/index.html)
 
 ## 作者
 

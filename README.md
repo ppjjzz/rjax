@@ -32,7 +32,7 @@ rjax.get(`/user/12345`).subscribe(response => {
 ```
 
 ## Docs
-API document and example [link]()
+API document and example [link](https://ppjjzz.github.io/rjax/dist/index.html)
 
 ## Author
 
