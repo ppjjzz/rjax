@@ -1,0 +1,37 @@
+{
+  "name": "rjax",
+  "version": "0.0.1",
+  "description": "base on rxjs awesome ajax library",
+  "main": "dist/index.js",
+  "author": "pandaJ <2070255@qq.com>",
+  "keywords": [
+    "ajax",
+    "rxjs",
+    "angular",
+    "fetch",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppjjzz/rjax.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "publish": "tsc && npm publish",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.2.2",
+    "vuepress": "^0.14.8"
+  },
+  "dependencies": {
+    "rxjs": "^6.3.3"
+  },
+  "peerDependencies": {
+    "rxjs": "^6.0.0"
+  }
+}
