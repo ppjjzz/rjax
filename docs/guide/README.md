@@ -3,6 +3,7 @@
 ## 特性
 
 - 移植优秀的@angular/common/http模块。
+- 兼容非angular项目
 - 基于rxjs的响应式请求库。
 - 使用 TypeScript 构建，提供完整的类型定义文件。
 - 功能强大又简单易用。
