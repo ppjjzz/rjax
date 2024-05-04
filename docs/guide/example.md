@@ -2,7 +2,7 @@
 
 ## 并发请求
 
-并发多个请求，等待所有请求都结束后才执行回调相当于 **Promise.all()**
+并发多个请求，等待所有请求都结束后才执行回调相当于 **Promise.all()**
 
 ```js
 import { Rjax } from 'rjax';
@@ -24,9 +24,9 @@ combineLatest(p1$, p2$).subscribe(([res1, res2]) => {
 });
 ```
 
-## 多数据源合并
+## 多数据源合并
 
-例如某个图表的数据来源于websocket和ajax手动请求，返回格式是一样的，可以将这两个数据流进行合并创建新的Observable，组件只要订阅合并后的数据流而不关心数据的来源
+例如某个图表的数据来源于websocket和ajax手动请求，返回格式是一样的，可以将这两个数据流进行合并创建新的Observable，组件只要订阅合并后的数据流而不关心数据的来源
 
 ```js
 import { Rjax } from 'rjax';

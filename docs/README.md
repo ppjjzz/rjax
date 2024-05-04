@@ -11,5 +11,5 @@ features:
   details: 享受 Rxjs的响应式和函数式编程体验。
 - title: 使用 TypeScript 构建
   details: 提供完整的类型定义文件和IDE完美提示。
-footer: MIT Licensed | Copyright © 2019 ppjjzz
+footer: MIT Licensed | Copyright © 2024 ppjjzz
 ---

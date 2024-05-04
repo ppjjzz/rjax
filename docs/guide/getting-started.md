@@ -17,8 +17,8 @@ const rjax = new Rjax({
   xsrfCookieName: 'XSRF-TOKEN', // 是用作 xsrf token 的值的cookie的名称，默认'XSRF-TOKEN'，可选
   xsrfHeaderName: 'X-XSRF-TOKEN', // 是承载 xsrf token 的值的 HTTP 头的名称，默认'X-XSRF-TOKEN'，可选
   headers: {}, // 添加统一的headers，默认{}，可选
-  withCredentials: false, // 表示跨域请求时是否需要使用凭证，默认false，可选
-  jsonp: false, // 是否添加jsonp请求功能，默认false，可选
+  withCredentials: false, // 表示跨域请求时是否需要使用凭证，默认false，可选
+  jsonp: false, // 是否添加jsonp请求功能，默认false，可选
 });
 
 // 发起GET请求

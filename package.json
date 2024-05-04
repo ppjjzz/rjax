@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "base on rxjs awesome ajax library",
   "main": "dist/index.js",
-  "author": "pandaJ <2070255@qq.com>",
+  "author": "pandaJ <panjiazhi@gmail.com>",
   "keywords": [
     "ajax",
     "rxjs",
@@ -26,7 +26,7 @@
     "tslint": "^5.12.1",
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.2.2",
-    "vuepress": "^0.14.8"
+    "vuepress": "^1.9.10"
   },
   "dependencies": {
     "rxjs": "^6.3.3"
